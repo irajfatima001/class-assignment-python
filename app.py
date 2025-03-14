@@ -63,7 +63,7 @@ while True:
 # 📌 Show all students' records
 print("\n🎓📊 All Students Report Cards:")
 for student in students:
-    print("\n" + "=" * 10)
+    print("\n" + "=" * 40)
     print(f"📌 Name: {student['name']}")
     print(f"🆔 Roll Number: {student['roll_no']}")
     print("*-----------📜-----------*")
@@ -73,7 +73,7 @@ for student in students:
     print(f"📊 Total Marks: {student['total_marks']} / 500")
     print(f"📈 Percentage: {student['percentage']:.2f}%")
     print(f"🏆 Grade: {student['grade']}")
-    print("=" * 10)
+    print("=" * 40)
 
 
 
